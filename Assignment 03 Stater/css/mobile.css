@@ -1,0 +1,42 @@
+@media (max-width: 768px){
+   .avatar {
+    display: none;
+  } 
+
+   #nav-bar .item {
+    display: block;
+    flex-basis: 100%;
+  }
+  #nav-bar .container {
+    flex-wrap: wrap;
+  } 
+   
+  /*thông tin cá nhân */
+   #about .container {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    margin: 0px 15px;
+  } 
+  /* thông tin nghề nghiệp */
+  #job-info .container {
+    grid-template-columns: 1fr;
+  }
+
+  /* chứng chỉ giải thưởng */
+  .certificates {
+    grid-template-columns: 1fr;
+    margin-bottom: 10px;
+  }
+
+  /* phần dự án */
+  .list-card {
+    flex-wrap: wrap;
+    
+  }
+
+  .item ul {
+    display: block;
+  }
+
+ 
+}
